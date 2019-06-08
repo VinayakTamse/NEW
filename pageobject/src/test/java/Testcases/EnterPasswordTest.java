@@ -1,5 +1,6 @@
 package Testcases;
 
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -35,6 +36,14 @@ public class EnterPasswordTest extends Base{
 	public void EnterPasswordTest()	{
 		passwordpage.enterThePassword(props.getProperty("Password"));
 		userpage = passwordpage.clickOnSigin();
+		boolean condition = userpage.verifyUserName();
+		if (condition==true)	{
+			Reporter.log("<===================Passed The Test User is Verified============>", true);
+		}
+		else	{
+			Reporter.log("<====================Failed===================>", true);
+		}
+		userpage.clickOnSignOut();
 	}
 	
 	@AfterMethod
