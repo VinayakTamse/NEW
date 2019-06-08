@@ -20,6 +20,20 @@
     <scope>test</scope>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/org.jenkins-ci.main/remoting -->
+<dependency>
+    <groupId>org.jenkins-ci.main</groupId>
+    <artifactId>remoting</artifactId>
+    <version>3.13</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.jvnet.hudson.main/remoting -->
+<dependency>
+    <groupId>org.jvnet.hudson.main</groupId>
+    <artifactId>remoting</artifactId>
+    <version>1.395</version>
+</dependency>
+
+
 </dependencies>
 
 <build>
