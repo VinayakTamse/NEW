@@ -1,31 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
     <line>
       <![CDATA[<===================Passed The Test User is Verified============>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="47918" started-at="2019-06-08T10:57:59Z" finished-at="2019-06-08T10:58:47Z">
+  <suite name="Suite" duration-ms="67951" started-at="2019-06-10T18:05:25Z" finished-at="2019-06-10T18:06:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="47918" started-at="2019-06-08T10:57:59Z" finished-at="2019-06-08T10:58:47Z">
-      <class name="Testcases.EnterPasswordTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcases.EnterPasswordTest@d8355a8]" name="setUp" is-config="true" duration-ms="32677" started-at="2019-06-08T10:57:59Z" finished-at="2019-06-08T10:58:31Z">
+    <test name="Test" duration-ms="67951" started-at="2019-06-10T18:05:25Z" finished-at="2019-06-10T18:06:33Z">
+      <class name="Testcases.EnterEmailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcases.EnterEmailTest@66a3ffec]" name="setUp" is-config="true" duration-ms="11896" started-at="2019-06-10T18:05:26Z" finished-at="2019-06-10T18:05:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="EnterPasswordTest()[pri:1, instance:Testcases.EnterPasswordTest@d8355a8]" name="EnterPasswordTest" duration-ms="10026" started-at="2019-06-08T10:58:31Z" finished-at="2019-06-08T10:58:41Z">
+        <test-method status="PASS" signature="enterTheEmailTest()[pri:0, instance:Testcases.EnterEmailTest@66a3ffec]" name="enterTheEmailTest" duration-ms="1465" started-at="2019-06-10T18:05:38Z" finished-at="2019-06-10T18:05:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTheEmailTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcases.EnterEmailTest@66a3ffec]" name="tearDown" is-config="true" duration-ms="5349" started-at="2019-06-10T18:05:39Z" finished-at="2019-06-10T18:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.EnterEmailTest -->
+      <class name="Testcases.EnterPasswordTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcases.EnterPasswordTest@47c62251]" name="setUp" is-config="true" duration-ms="10808" started-at="2019-06-10T18:05:44Z" finished-at="2019-06-10T18:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="EnterPasswordTest()[pri:1, instance:Testcases.EnterPasswordTest@47c62251]" name="EnterPasswordTest" duration-ms="6764" started-at="2019-06-10T18:05:55Z" finished-at="2019-06-10T18:06:02Z">
           <reporter-output>
             <line>
               <![CDATA[<===================Passed The Test User is Verified============>]]>
             </line>
           </reporter-output>
         </test-method> <!-- EnterPasswordTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcases.EnterPasswordTest@d8355a8]" name="tearDown" is-config="true" duration-ms="5155" started-at="2019-06-08T10:58:41Z" finished-at="2019-06-08T10:58:47Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcases.EnterPasswordTest@47c62251]" name="tearDown" is-config="true" duration-ms="5354" started-at="2019-06-10T18:06:02Z" finished-at="2019-06-10T18:06:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Testcases.EnterPasswordTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Testcases.HomePageSigninTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcases.HomePageSigninTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="7652" started-at="2019-06-10T18:06:07Z" finished-at="2019-06-10T18:06:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyAmazonLogoTest()[pri:1, instance:Testcases.HomePageSigninTest@3e6fa38a]" name="verifyAmazonLogoTest" duration-ms="974" started-at="2019-06-10T18:06:15Z" finished-at="2019-06-10T18:06:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcases.HomePageSigninTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="5142" started-at="2019-06-10T18:06:16Z" finished-at="2019-06-10T18:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testcases.HomePageSigninTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="7391" started-at="2019-06-10T18:06:21Z" finished-at="2019-06-10T18:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickOnLoginLinkTest()[pri:2, instance:Testcases.HomePageSigninTest@3e6fa38a]" name="clickOnLoginLinkTest" duration-ms="1364" started-at="2019-06-10T18:06:29Z" finished-at="2019-06-10T18:06:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLoginLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Testcases.HomePageSigninTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="3374" started-at="2019-06-10T18:06:30Z" finished-at="2019-06-10T18:06:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcases.HomePageSigninTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
